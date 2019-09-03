@@ -1,0 +1,22 @@
+{
+  "name": "skyeng-test",
+  "version": "1.0.0",
+  "description": "This is for testing my sumString function",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islam95/skyeng-task.git"
+  },
+  "author": "Islam Dudaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/islam95/skyeng-task/issues"
+  },
+  "homepage": "https://islam95.github.io/skyeng-task/",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
