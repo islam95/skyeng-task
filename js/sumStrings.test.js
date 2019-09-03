@@ -1,6 +1,6 @@
 const sumStrings = require("./sumStrings");
 
-describe("Check sum of 2 string numbers", () => {
+describe("Should compute sum of two string numbers", () => {
   test("adds 1 + 2 to equal 3", () => {
     expect(sumStrings("1", "2")).toBe("3");
   });
