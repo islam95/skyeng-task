@@ -12,8 +12,8 @@
 
 ### Mobile design
 
-![Mobile design](https://islamdudaev.ru/files/skyeng/3.png)
+<img src="https://islamdudaev.ru/files/skyeng/3.png" alt="mobile design" width="200"/>
 
 ### Modal opened in mobile design
 
-![Mobile design modal](https://islamdudaev.ru/files/skyeng/4.png)
+<img src="https://islamdudaev.ru/files/skyeng/4.png" alt="modal in mobile design" width="200"/>
