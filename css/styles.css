@@ -53,15 +53,15 @@ body {
 }
 
 .tariff__image--device {
-  background: url("./img/device.svg") no-repeat;
+  background: url("../img/device.svg") no-repeat;
   background-size: 50px 50px;
 }
 .tariff__image--laptop {
-  background: url("./img/laptop.svg") no-repeat;
+  background: url("../img/laptop.svg") no-repeat;
   background-size: 50px 50px;
 }
 .tariff__image--monitor {
-  background: url("./img/monitor.svg") no-repeat;
+  background: url("../img/monitor.svg") no-repeat;
   background-size: 50px 50px;
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .modal {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 1; /* Sit on top */
   left: 0;
@@ -184,7 +184,7 @@ body {
 }
 
 .btn-close {
-  background: url("./img/cross.svg") no-repeat;
+  background: url("../img/cross.svg") no-repeat;
   background-size: 20px 20px;
   width: 20px;
   height: 20px;
