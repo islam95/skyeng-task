@@ -12,7 +12,8 @@ body {
 /* Mobile first */
 
 .tariffs,
-.tariff__item {
+.tariff__item,
+.modal__tariff {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,11 +130,53 @@ body {
 }
 
 .modal__content {
-  width: 350px;
+  position: relative;
+  width: 340px;
   background-color: #fefefe;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   padding: 10px;
-  border: 1px solid #888;
+  border: 1px solid #888888;
   border-radius: 3px;
+  text-align: center;
+  /* Animating the modal */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.2s;
+  animation-name: animatetop;
+  animation-duration: 0.2s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal__tariff {
+  margin-left: 20px;
+}
+
+.modal__title {
+  padding: 10px 0px 30px 0px;
+  font-weight: 500;
 }
 
 .closed {
@@ -152,7 +195,7 @@ body {
 /* Screen size > 876px */
 @media screen and (min-width: 876px) {
   .container {
-    transform: translate(-50%, -50%);
+    top: 35%;
   }
   .tariffs {
     flex-direction: row;
