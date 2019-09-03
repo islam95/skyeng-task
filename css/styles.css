@@ -142,30 +142,30 @@ body {
   text-align: center;
   /* Animating the modal */
   -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.2s;
+  -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.2s;
+  animation-duration: 0.4s;
 }
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
   from {
-    top: -300px;
+    top: -50%;
     opacity: 0;
   }
   to {
-    top: 0;
+    top: 50%;
     opacity: 1;
   }
 }
 
 @keyframes animatetop {
   from {
-    top: -300px;
+    top: -50%;
     opacity: 0;
   }
   to {
-    top: 0;
+    top: 50%;
     opacity: 1;
   }
 }
@@ -179,8 +179,8 @@ body {
   font-weight: 500;
 }
 
-.closed {
-  display: none;
+.toggle-modal {
+  display: block;
 }
 
 .btn-close {
